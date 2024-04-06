@@ -1,0 +1,18 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="32" height="32" viewBox="0 0 32 32">
+  <defs>
+    <clipPath id="clip-path">
+      <rect id="Rectangle_75" data-name="Rectangle 75" width="15.723" height="19.688" fill="#fff"/>
+    </clipPath>
+  </defs>
+  <g id="Group_281" data-name="Group 281" transform="translate(-1767 -506)">
+    <g id="Group_146" data-name="Group 146" transform="translate(-7190 1170)">
+      <path id="Path_246" data-name="Path 246" d="M4,0H28a4,4,0,0,1,4,4V28a4,4,0,0,1-4,4H4a4,4,0,0,1-4-4V4A4,4,0,0,1,4,0Z" transform="translate(8957 -664)" fill="#478461"/>
+      <g id="Group_140" data-name="Group 140" transform="translate(8965.138 -657.844)">
+        <g id="Group_139" data-name="Group 139" clip-path="url(#clip-path)">
+          <path id="Path_201" data-name="Path 201" d="M15,17.839a1.066,1.066,0,0,1-1.121,1.125H1.843a1.067,1.067,0,0,1-1.12-1.125V1.849A1.067,1.067,0,0,1,1.843.724h8.13l0,0V3.9a1.776,1.776,0,0,0,1.843,1.842h3.152L15,5.769ZM14.253,5.02H11.821A1.062,1.062,0,0,1,10.7,3.9V1.454Zm1.47,12.819V5.472L10.7.429V.405h-.025L10.275,0H1.843A1.78,1.78,0,0,0,0,1.85V17.839a1.781,1.781,0,0,0,1.843,1.849H13.88a1.78,1.78,0,0,0,1.843-1.849" fill="#fff"/>
+        </g>
+      </g>
+    </g>
+    <text id="CSV" transform="translate(1783 526)" fill="#fff" font-size="6" font-family="OpenSans-Semibold, Open Sans" font-weight="600" letter-spacing="0.04em"><tspan x="-5" y="0">CSV</tspan></text>
+  </g>
+</svg>

@@ -1,0 +1,48 @@
+@import "./../../../../../core/styles/variables";
+.content{
+    background-color: $white;
+    width: 100%;
+    padding: 30px 10%;   
+    .col-md-6{
+        margin-bottom: 8px;
+    }
+    .button{
+        width: 30%;
+        text-align: end;
+    }
+    .title{
+        font-weight: bold;
+        color: black;
+        font-size: 30px;
+        margin-top: 40px;
+        text-align: start;
+    }
+    .message{
+        color: black;
+        opacity: 0.5;
+        margin-top: 20px;
+        font-size: 15px;
+        text-align: start;
+    }
+    form {
+        margin-top: 24px;
+    }
+    ::ng-deep .iti { width: 100% !important; }  
+    .mobile-code{
+        height: 25px;
+        border: transparent;
+    }
+}
+@media screen and (max-width: 767px) {
+    .content{
+        background-color: $white;
+        width: 100%;
+        .google-map{
+            height:300px !important;
+            width: 300px !important;
+            margin-top: 20px;
+            display: inline-flex;
+        }
+    }
+
+}

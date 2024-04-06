@@ -1,0 +1,12 @@
+<side-menu [isExpanded]="sidebarExpanded" (toggleSidebar)="sidebarExpanded = !sidebarExpanded"></side-menu>
+<div class="content" [ngClass]="{ 'sidebarExpanded': sidebarExpanded ,
+'language-ar':storageLanguage==langaugeEnum.ar,
+'language-en':storageLanguage==langaugeEnum.en}">
+  <router-outlet></router-outlet>
+</div>
+<notifier *ngIf="notifier.shown"></notifier>
+<confirm *ngIf="confirm.shown"></confirm>
+<notification-dialog *ngIf="notification.shown"></notification-dialog>
+
+<confirm-input *ngIf="confirmInput.shown"></confirm-input>
+<pdf-dialog *ngIf="pdfDialog.shown"></pdf-dialog>

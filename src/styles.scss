@@ -1,0 +1,203 @@
+/* You can add global styles to this file, and also import other style files */
+@import "./app/core/styles/_base.scss";
+@import "./app/core/styles/_form.scss";
+@import "./app/core/styles/_btn.scss";
+@import "assets/styles/main";
+@import "assets/styles/utilities";
+@import "assets/styles/overrides";
+@import "./app/core/styles/variables";
+@import "~@angular/material/prebuilt-themes/indigo-pink.css";
+@import "./node_modules/bootstrap/scss/bootstrap";
+body,
+html {
+  height: 100%;
+  font-family: system-ui;
+}
+h1,h2,h3,h4,h5,h6,div{font-family: system-ui; }
+.card{
+    padding: 8px
+}
+input:focus{
+    outline:none;
+  }
+  .ngx-pagination .current {
+    border-radius: 50px !important;
+    background: #81bfa2 !important;
+    color: #3f5c4e !important;
+    font-weight: 600 !important;
+  }
+  progress::-webkit-progress-bar {background-color: #F6F8FA; width: 100%;
+  border-radius: 8px;}
+  progress {background-color:  #F6F8FA;border-radius: 8px;}
+  
+  /* value: */
+  progress::-webkit-progress-value {background-color: #00D182 !important;border-radius: 8px;}
+  progress::-moz-progress-bar {background-color: #00D182 !important;border-radius: 8px;}
+  progress {color: #00D182;width: 100%;}
+  .required-label::after {
+    content: "*\00a0";
+    color: #070707;
+    font-size: 12px;
+    padding-left: 2px;
+  }
+  .input-style{
+    fill: $primary-green;
+    border-radius: 4px;
+    background: white;
+    border: 1px solid #F0F2F5;
+    i{
+        margin-inline-start: 10px;
+        margin-inline-end: 5px;
+    }
+    input{
+        border: transparent;
+        height: 33px;
+        margin-inline-start: 5px;
+        background: transparent;
+        width: 100%;
+    }
+    textarea{
+        border: transparent;
+        height: 65px;
+        margin-inline-start: 5px;
+        background: transparent;
+        max-lines: 5;
+        width: 98%;
+    }
+    select{
+        border: transparent;
+        width: 100%;
+        display: initial;
+        background-color: transparent;
+    }
+ }
+ .button-view{
+  background-color: $blue;
+  width: 100%;
+  height: 35px;
+  border-radius: 8px;
+  border: 1px solid $blue;
+  color: $white;
+  margin-top: 5px;
+  &:disabled {
+    background-color: $blue;
+    opacity: 0.6;
+    border: 1px solid $blue;
+    cursor: initial;
+  }
+} 
+.button-view-green{
+  background-color: #4DB677;
+  width: 100%;
+  height: 35px;
+  border-radius: 8px;
+  border: 1px solid   #4DB677;
+  color: white;
+  margin-top: 5px;
+  &:disabled {
+    background-color:   #4DB677;
+    opacity: 0.6;
+    border: 1px solid #4DB677;
+    cursor: initial;
+  }
+}
+.button-view-gray{
+  background-color: $second-white;
+  width: 100%;
+  height: 35px;
+  border-radius: 8px;
+  border: 1px solid  $second-white;
+  color: $blue;
+  margin-top: 5px;
+  &:disabled {
+    background-color:  $second-white;
+    opacity: 0.6;
+    border: 1px solid   $second-white;
+    cursor: initial;
+  }
+}
+.button-view-yellow{
+  background-color: #FCCD12;
+  width: 100%;
+  height: 35px;
+  border-radius: 8px;
+  border: 1px solid #FCCD12;
+  color: $blue;
+  margin-top: 5px;
+  &:disabled {
+    background-color: #FCCD12;
+    opacity: 0.6;
+    border: 1px solid  #FCCD12;
+    cursor: initial;
+  }
+} 
+.button-view-red{
+  background-color: rgb(148, 38, 38);
+  width: 100%;
+  height: 35px;
+  border-radius: 8px;
+  border: 1px solid rgb(148, 38, 38);
+  color: white;
+  margin-top: 5px;
+  &:disabled {
+    background-color: rgb(148, 38, 38);
+    opacity: 0.6;
+    border: 1px solid  rgb(148, 38, 38);
+    cursor: initial;
+  }
+} 
+.button-view-green{
+  background-color: rgb(27, 138, 27);
+  width: 100%;
+  height: 35px;
+  border-radius: 8px;
+  border: 1px solid rgb(27, 138, 27);
+  color: white;
+  margin-top: 5px;
+  &:disabled {
+    background-color: rgb(27, 138, 27);
+    opacity: 0.6;
+    border: 1px solid  rgb(27, 138, 27);
+    cursor: initial;
+  }
+} 
+.form-group{
+  padding:10px;
+  border:0.5px solid $gray;
+  height: 40px;
+  margin-top: 12px;
+  border-radius: 4px;
+  &__textarea{
+    height: 80px !important;
+  }
+}
+.form-group>label{
+  position:absolute;
+  color: $black;
+  top:-12px;
+  font-weight: 400;
+  padding: 0px 10px;
+  background-color:$white;
+}
+.form-group>input{
+  border:none;
+  height: 25px;
+  width: 100% !important;
+  margin-top: -2px;
+}
+.form-group>select{
+  border:none;
+  height: 30px;
+  width: 100% !important;
+  margin-top: -5px;
+}
+.form-group>textarea{
+  border:none;
+  width: 100% !important;
+  margin-top: -2px;
+}
+.ngxImageZoomContainer {
+  width: 400px !important;
+  height: 480px !important;
+  display: flex;
+}

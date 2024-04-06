@@ -1,0 +1,58 @@
+<div class="sidebar" [ngClass]="{ 'expanded': isExpanded,'language-ar':lang=='ar',
+'language-en':lang=='en' }">
+    <div class="header" (click)="handleSidebarToggle()">
+        <img class="logo__icon" [ngClass]="{'language-ar':lang=='ar',
+        'language-en':lang=='en' }" src="assets/icons/logo.svg" alt="Loading">
+     </div>
+    <div class="content">
+      <div class="link with-children" >
+        <div class="content" [ngClass]="{'language-ar':lang=='ar',
+        'language-en':lang=='en' }"
+         (click)="display('child-2','child-2-a','child-2-b')" [routerLinkActive]="'active'">
+          <div class="icon">
+            <i class="fa-solid fa-user-gear"></i>
+          </div>
+          <div class="title">nameHere</div>
+          <i id="child-2-a"  [style.display]=" active? 'none': 'block'"
+          [ngClass]="{'language-ar':lang=='ar',
+        'language-en':lang=='en' }" class="fa-solid fa-angle-right  right-icon"></i>
+          <i id="child-2-b" [style.display]=" active? 'block': 'none'" class="fa-solid fa-angle-down"></i>
+        </div>
+        <div  class="children" id="child-2" [style.display]=" active? 'block': 'none'">
+          <div class="link">
+            <div class="content"[routerLink]="['/dashboard']" [queryParams]="{ 'child': '1' }"
+              [routerLinkActive]="'active'">
+              <div class="title" [ngClass]="{'language-ar':lang=='ar',
+              'language-en':lang=='en' }">nameHere</div>
+            </div>
+          </div>
+          <div class="link">
+            <div class="content" [routerLink]="['/dashboard/customer-requests']" [queryParams]="{ 'child': '2' }"
+              [routerLinkActive]="'active'">
+              <div class="title" [ngClass]="{'language-ar':lang=='ar',
+              'language-en':lang=='en' }">nameHere</div>
+            </div>
+          </div>
+          <div class="link">
+            <div class="content" [routerLink]="['/configuration']" [queryParams]="{ 'child': '3' }"
+              [routerLinkActive]="'active'">
+              <div class="title" [ngClass]="{'language-ar':lang=='ar',
+              'language-en':lang=='en' }">nameHere</div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="link">
+        <div class="content" [ngClass]="{'language-ar':lang=='ar',
+        'language-en':lang=='en' }" [routerLinkActive]="'active'">
+          <div class="icon no-scroll">
+            <i class="fa-solid fa-laptop-code" width="25"></i>
+          </div>
+          <div class="title">nameHere</div>
+        </div>
+      </div>
+      
+    
+    </div>
+    <div class="footer"></div>
+  </div>

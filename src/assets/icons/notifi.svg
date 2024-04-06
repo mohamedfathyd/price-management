@@ -1,0 +1,12 @@
+<svg id="Component_85_6" data-name="Component 85 – 6" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="19.75" height="22.91" viewBox="0 0 19.75 22.91">
+  <defs>
+    <clipPath id="clip-path">
+      <rect id="Rectangle_2435" data-name="Rectangle 2435" width="19.75" height="22.91" fill="none"/>
+    </clipPath>
+  </defs>
+  <g id="Group_2104" data-name="Group 2104" clip-path="url(#clip-path)">
+    <path id="Path_1948" data-name="Path 1948" d="M137.353,472.5H131.88a3.158,3.158,0,0,0,2.315,1.552,3.208,3.208,0,0,0,1.039-.032,3.135,3.135,0,0,0,.847-.3,3.17,3.17,0,0,0,.843-.641,3.217,3.217,0,0,0,.43-.579Z" transform="translate(-125.927 -451.17)" fill="#fff" fill-rule="evenodd"/>
+    <path id="Path_1949" data-name="Path 1949" d="M.79,36.46h15.8a.79.79,0,1,0,0-1.58H15.8V25.857a6.911,6.911,0,0,0-6.32-6.736V18.29a.79.79,0,1,0-1.58,0v.831a6.911,6.911,0,0,0-6.32,6.736V34.88H.79a.79.79,0,1,0,0,1.58" transform="translate(0 -16.71)" fill="#fff" fill-rule="evenodd"/>
+    <path id="Path_1950" data-name="Path 1950" d="M334.87,0a2.37,2.37,0,1,0,2.37,2.37A2.371,2.371,0,0,0,334.87,0" transform="translate(-317.49)" fill="#df0000" fill-rule="evenodd"/>
+  </g>
+</svg>

@@ -1,0 +1,68 @@
+<div class="content">
+    <div class="row">
+        <div class="col-md-12">
+            <div class="title">
+                <!-- {{language.aboutUs.contactUs}} -->
+            </div>
+            <div class="message">
+                <!-- {{language.aboutUs.message}} -->
+            </div>
+            <form [formGroup]="requestForm">
+                <div class="row">
+                    <div class="col-6">
+                        <div class="form-group">
+                            <label class="required-label">cRNumber</label>
+                            <input type="text" placeholder="ex:John" formControlName="cRNumber"
+                                class="form-control input-lg" />
+                        </div>
+                    </div>
+                    <div class="col-6">
+                        <div class="form-group">
+                            <label class="required-label">civilIdNumber</label>
+                            <input type="text" placeholder="ex:Smith" formControlName="civilIdNumber"
+                                class="form-control input-lg" />
+                        </div>
+                    </div>
+                </div>
+                <div class="row">
+                    <div class="col-10"></div>
+                    <input (click)="submit()" class="col-2 button-view" [disabled]="!(requestForm.valid)" type="button"
+                        value="Submit">
+                </div>
+            </form>
+            <form [formGroup]="requestSubmitFrom">
+                <div class="row">
+                    <div class="col-6">
+                        <div class="form-group">
+                            <label class="required-label">name</label>
+                            <input type="text" placeholder="ex:John" formControlName="name"
+                                class="form-control input-lg" />
+                        </div>
+                    </div>
+                    <div class="col-6">
+                        <div class="form-group">
+                            <label class="required-label">age</label>
+                            <input type="text" placeholder="ex:Smith" formControlName="age"
+                                class="form-control input-lg" />
+                        </div>
+                    </div>
+                </div>
+                <div class="row">
+                    <div class="col-12">
+                        <div class="form-group">
+                            <label class="required-label">job</label>
+                            <input type="text" placeholder="ex:John" formControlName="job"
+                                class="form-control input-lg" />
+                        </div>
+                    </div>
+                </div>
+                <div class="row">
+                    <div class="col-10"></div>
+                    <input (click)="SubmitForm()" class="col-2 button-view" [disabled]="!(requestSubmitFrom.valid)" type="button"
+                        value="Submit">
+                </div>
+            </form>
+
+        </div>
+    </div>
+</div>
